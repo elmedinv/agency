@@ -1,0 +1,677 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+body {
+
+    padding: 0;
+    margin:0;
+    height: 100%;
+    background-color: #f7f5f3;
+    opacity: 0;
+    transition: opacity 3s;
+    
+}
+
+[data-scroll-content] {
+    padding: 10vw 0;
+    
+  }
+
+ 
+/******** FULL HEAD **************/
+
+.full-head {
+    flex-basis: 100%;
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu {
+
+    width: 11%;
+    text-align: right;
+    position: fixed;
+    display: flex;
+    margin-top: 50px;
+    z-index: 1;
+}
+.menu ul {
+
+    list-style:none;
+    padding: 0;
+}
+.menu ul li {
+
+    margin: 20px 0;
+}
+.menu ul li a {
+
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+   
+}
+.menu ul li a:hover {
+
+    background: #eaeaae;
+}
+.awawa {
+
+    background: #fff200;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+#logo-svg {
+
+    width: 100%;
+    margin: 130px auto;
+    z-index: 1;
+}
+
+.into {
+
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.into h2 {
+
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    align-self: flex-end;
+    margin-top: 185px;
+    width: 35%;
+}
+.intoagency {
+
+    width: 50%;
+    margin-top: 150px;
+    padding: 20px;
+    align-self: flex-end;
+}
+.moto {
+
+    margin-top: 150px;
+    width: 80%;
+    padding: 20px;
+    align-self: flex-end;
+} 
+
+main {
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+/**********************/
+
+.into-two {
+
+    width: 90%;
+    
+}
+.into-two p {
+    font-size: 34px;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    margin-top: 180px;
+    padding: 30px;
+    color: black;
+    background: rgb(255 242 0);
+    right: 137px;
+    text-align: right;
+}
+.into-two img {
+
+    width: 100%;
+    height: 1260px;
+    object-fit: cover;
+    position: relative;
+    margin-top: 100px;
+    right: 9px;
+}
+
+/**********************************/
+#Principles ,#Choose,#hi{
+
+    width: 88%;
+    margin: auto;
+   
+}
+.inside-principles {
+
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+#Principles img {
+
+    width: 50%;
+    margin-top: 130px;
+    padding: 50px;
+}
+#Choose img {
+
+    width: 50%;
+    margin-top: 10px;
+    padding: 50px;
+}
+img.ciples {
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.zero-col {
+
+    align-self: center;
+}
+
+.first-col h1, .second-col h1, .third-col h1, .fourth-col h1, .fifth-col h1, .six-col h1 {
+
+    font-size: 32px;
+    font-family: 'Kanit',sans-serif;
+    box-shadow: 5px 10px 35px -10px #35e0b9; /*** 10px 20px 35px -12px ***/
+    margin: 0;
+    height: 55px;
+    border: 1px solid #35e0b9;
+}
+.first-col , .second-col , .third-col , .fourth-col , .fifth-col , .six-col {
+
+    padding: 10px;
+    margin: 15px;
+    width: 40%;
+}
+.columns {
+
+    display: inline-flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first-col p, .second-col p, .third-col p, .fourth-col p, .fifth-col p, .six-col p {
+
+    font-size: 16px;
+font-family: 'Roboto', sans-serif;
+text-align: right;
+margin-top: 55px;
+line-height: 1.722169;
+}
+.first-col img, .second-col img, .third-col img, .fourth-col img, .fifth-col img, .six-col img {
+
+    width: 5%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/**********************************/
+
+#Services,#Process {
+
+    width: 90%;
+    margin-top: 130px;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.method {
+
+    font-size: 26px;
+    font-family: 'Roboto',sans-serif;
+    text-align: right;
+    width: 80%;
+    margin-top: 60px;
+}
+#Services img ,#Process img{
+
+    width: 50%;
+}
+.services-content {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.services-content img {
+    width: 50%;
+    position: absolute;
+}
+.content-top , .content-center, .content-bottom {
+
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 250px 0;
+    flex-direction: column;
+
+}
+.content-top h1, .content-center h1, .content-bottom h1 {
+    font-weight: 600;
+    font-size: 90px;
+    font-family: 'Kanit',sans-serif;
+    box-shadow: 10px 20px 35px -12px #35e0b9;
+    margin: 0;
+    height: 77px;
+    border: 1px solid #35e0b9;
+    align-self: center;
+    z-index: 1;
+}
+
+  
+  /***************************************/
+.model-content,.product-content,.based-content {
+
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+ 
+  .model-content ul,.product-content ul, .based-content ul{
+
+    list-style: none;
+    font-size: 21px;
+    font-family: 'Roboto',sans-serif;
+    text-align: right;
+    
+  }
+  .model-content ul li,.product-content ul li, .based-content ul li {
+
+    padding: 10px;
+  }
+  /*********************** PROCESS *******************************/ 
+
+  .inside-process {
+
+    width: 90%;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .dthink {
+
+    width: 40%;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .dthink img {
+
+    width: 60%;
+  }
+  .column-process {
+
+    display: inline-flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .process-one h1,.process-two h1,.process-three h1,.process-four h1,.process-five h1 {
+
+    font-size: 34px;
+    font-family: 'Kanit',sans-serif;
+    box-shadow: 5px 5px 35px -20px #685c55;
+    margin: 0;
+    height: 55px;
+    border: 1px solid #685C55;
+  }
+  .process-one ,.process-two,.process-three,.process-four ,.process-five {
+
+    padding: 10px;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+    align-self: flex-end;
+  }
+  .process-one p ,.process-two p,.process-three p,.process-four p,.process-five p {
+  font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-top: 55px;
+}
+
+/******************* CHOOOSE PROJECT ***************/
+
+.choose-project {
+
+    width: 80%;
+    margin:0 auto;
+}
+
+.menuapp {
+
+    align-self: flex-start;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.menuapp img {
+
+    width: 50%;
+    object-fit: cover;
+}
+.menuapp p {
+
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+}
+
+.radius {
+
+    width: 90%;
+    margin: 200px auto;
+}
+.radius-content {
+
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.radius-content h2 {
+
+    font-size: 50px;
+    font-family: 'ivymode';
+}
+.radius-content p {
+
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 30px;
+}
+.modal ,.modal1,.modal2,.modal3,.modal4,.modal5,.modal6{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #f7f5f3;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: rgb(104 92 85) 5px 5px 35px -20px;
+    border: 1px solid rgb(104, 92, 85);
+    overflow-y: auto;
+  }
+  
+  .content ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .content ul li {
+
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Comfortaa',sans-serif;
+  }
+  /* The Close Button */
+  .close,.close1,.close2,.close3,.close4,.close5,.close6 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus, .close1:hover,.close1:focus,.close2:hover,.close2:focus,.close3:hover,.close3:focus,.close4:hover,.close4:focus,.close5:hover,.close5:focus,.close6:hover,.close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /****************** CONTACT *********************/
+
+  .contact {
+
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.contact img {
+
+    width: 25%;
+}
+.contact a {
+
+    font-size: 21px;
+    font-family: 'Comfortaa',sans-serif;
+    padding: 20px 0;
+}
+.contact h1 {
+
+    font-family: 'Kanit',sans-serif;
+    font-size: 90px;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    margin: 25px auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.socialmedia img {
+
+    width: 15%;
+}
+.socialmedia img:hover {
+
+    background:#eaeaae;
+    cursor: pointer;
+}
+.socialmedia span {
+
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    padding: 25px 0;
+}
+
+/***************/
+
+.database {
+
+    margin-top: 200px;
+}
+.prototype {
+
+    margin-top: 200px;
+    width: 100%;
+}
+.content-more {
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+
+/******************** MEDIA QUERIES **************************/
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 800px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi)
+  { 
+
+    .full-head {
+        display: flex;
+        flex-direction: row;
+      }
+      #logo-svg {
+
+        width: 85%;
+      }
+      .intoagency ,.moto,#Principles img,#Services img, #Process img,#Choose img{
+
+        width: 80%;
+        display: flex;
+        margin-top: 50px;
+      }
+      .menu {
+
+        width: 9%;
+      }
+      .menuapp {
+          flex-direction: column;
+          width: 100%;
+      }
+      .menuapp img {
+        width: 80%;
+        margin: 50px auto;
+      }
+      .menuapp p {
+
+        font-size: 30px;
+        margin: 0px auto;
+        padding: 25px;
+      }
+      .into-two p{
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+        width: 60%;
+        z-index: 1;
+        font-size: 32px;
+      }
+      .into-two img {
+        width: 120%;
+        margin: 50px auto;
+      
+      }
+     .inside-principles {
+
+        flex-direction: column;
+     }
+     .zero-col {
+
+        width: 35%;
+     }
+     .columns {
+         flex-direction: column;
+         width: 100%;
+     }
+     .first-col,.second-col,.third-col,
+     .fourth-col,.fifth-col,.six-col {
+         width: 70%;
+         margin: 50px auto;
+         flex-direction: column;
+     }
+     .first-col img,.second-col img,.third-col img,
+     .fourth-col img,.fifth-col img,.six-col img {
+
+        width: 15%;
+     }
+     .first-col h1,.second-col h1,.third-col h1,
+     .fourth-col h1,.fifth-col h1,.six-col h1 {
+         
+         text-align: left;
+         margin: 0 auto;
+     }
+     #Services img {
+
+        width: 85%;
+        margin: 0% auto;
+     }
+     .content-top h1,.content-more h1,.content-center h1,
+     .content-bottom h1,.content-center h1 {
+
+        font-size: 40px;
+        padding: 0 10px;
+     }
+     .model-content, .product-content, .based-content {
+
+        width: 80%;
+        align-self: center;
+        flex-direction: column;
+     }
+     .content-top, .content-center, .content-bottom {
+
+        margin: 100px 0;
+     }
+     .method {
+
+        width: 85%;
+    font-size: 24px;
+     }
+     .inside-process {
+
+        flex-direction: column;
+    width: 100%;
+     }
+     .column-process {
+
+        margin: 100px auto;
+        display: inline-flex;
+        width: 75%;
+     }
+     .dthink {
+
+            width: 100%;
+            justify-content: center;
+     }
+     .process-one, .process-two, .process-three, .process-four, .process-five {
+
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+     }
+    .contact h1 {
+
+        font-size: 45px;
+    }
+    
+  }
+ 
